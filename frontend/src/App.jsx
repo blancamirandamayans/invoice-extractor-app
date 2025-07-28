@@ -29,7 +29,7 @@ function App() {
         <div className="mt-6 bg-white shadow p-4 rounded">
           <p><strong>Supplier:</strong> {data.supplier}</p>
           <p><strong>Date:</strong> {data.date}</p>
-          <p><strong>Total Amount:</strong> ${data.total_amount}</p>
+          <p><strong>Total Amount:</strong> {data.total_amount} ({data.currency})</p>
         </div>
       )}
     </div>

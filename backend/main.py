@@ -28,4 +28,5 @@ async def upload_pdf(file: UploadFile = File(...)):
         "supplier": result.supplier_name.value,
         "date": str(result.date.value),
         "total_amount": result.total_amount.value,
+        "currency": result.locale.currency,
     }
