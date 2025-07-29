@@ -53,3 +53,4 @@ npm run dev
 - Error control
 - Testing
 - Dockerize
+- Deploy
