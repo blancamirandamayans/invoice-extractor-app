@@ -45,3 +45,10 @@ npm run dev
 2. Open browser at `http://localhost:5173`
 3. Upload a PDF invoice.
 4. See extracted data
+
+---
+
+## 👣 Next steps
+- Typing
+- Error control
+- Testing
