@@ -50,7 +50,7 @@ npm run dev
 
 ## 👣 Next steps
 - Typing
-- Error control
 - Testing
 - Dockerize
 - Deploy
+- Security
