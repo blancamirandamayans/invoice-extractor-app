@@ -18,13 +18,18 @@ A minimal web app to extract **Supplier**, **Date**, and **Total Amount** from P
 ## ⚙️ Backend Setup
 
 ```bash
-cd backend
 python -m venv venv
 (linux) source venv/bin/activate
 (windows) .\venv\Scripts\activate.bat
 pip install -r requirements.txt
 echo "MINDEE_API_KEY=your_key_here" > .env
-uvicorn main:app --reload
+uvicorn backend.main:app --reload
+```
+
+### Tests
+
+```bash
+pytest
 ```
 
 ---
@@ -49,8 +54,6 @@ npm run dev
 ---
 
 ## 👣 Next steps
-- Typing
-- Testing
 - Dockerize
 - Deploy
 - Security

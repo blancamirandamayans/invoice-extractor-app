@@ -1,8 +1,8 @@
 import tempfile
 from fastapi import File, UploadFile
 from fastapi.routing import APIRouter
-from services.mindee import MindeeService
-from api.responses import InvoiceDataResponse
+from backend.services.mindee import MindeeService
+from backend.api.responses import InvoiceDataResponse
 
 router = APIRouter()
 

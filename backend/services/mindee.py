@@ -3,7 +3,7 @@ from dataclasses import dataclass
 from mindee import Client
 from mindee.product import InvoiceV4
 from dotenv import load_dotenv
-from models import InvoiceData
+from backend.models import InvoiceData
 
 load_dotenv()
 
